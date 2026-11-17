@@ -9,17 +9,47 @@
 
 # doc2md-lite
 
+[![Tests](https://github.com/tidybytetools/doc2md-lite/actions/workflows/tests.yml/badge.svg)](https://github.com/tidybytetools/doc2md-lite/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tidybytetools/doc2md-lite/blob/main/LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![MCP server](https://img.shields.io/badge/MCP-stdio-purple.svg)](#use-it-with-your-ai-app-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-listed-green.svg)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.tidybytetools/doc2md-lite)
-[![PyPI downloads](https://img.shields.io/pypi/dm/doc2md-lite.svg)](https://pypistats.org/packages/doc2md-lite)
-[![Glama score](https://glama.ai/mcp/servers/tidybytetools/doc2md-lite/badges/score.svg)](https://glama.ai/mcp/servers/tidybytetools/doc2md-lite)
-[![Action test](https://github.com/tidybytetools/doc2md-lite/actions/workflows/action-test.yml/badge.svg)](https://github.com/tidybytetools/doc2md-lite/actions/workflows/action-test.yml)
+[![Version](https://img.shields.io/github/v/release/tidybytetools/doc2md-lite?label=version)](https://github.com/tidybytetools/doc2md-lite/releases)
+[![Apify](https://apify.com/actor-badge?actor=tidybytetools/doc-to-markdown)](https://apify.com/tidybytetools/doc-to-markdown)
 
 **Free. No API key. Runs on your own computer, so your files stay with you.**
 
 A tool that turns a text PDF or a saved web page (.html) into clean Markdown. Tables stay real Markdown tables.
+
+## Example
+
+From a saved help page (`returns-help.html` in the tests folder), an actual run wrote this Markdown:
+
+````markdown
+# How returns work
+
+You can send back most items within **30 days**. See the [full policy](https://example.com/policy).
+
+## Steps
+
+1. Open your order.
+2. Pick *Return item*.
+    - Print the label.
+3. Drop it off.
+
+## Refund times
+
+| Paid with | Refund time |
+| --- | --- |
+| Card | 3-5 days |
+| Gift card | 1 day |
+
+### Code for developers
+
+```bash
+curl https://example.com/api/returns
+```
+````
+
+Scanned pages are skipped. This free tool does not read Word files and does not download web pages — save the page first.
+
 Need Word files, chunks for AI search (RAG), whole folders or page ranges? The paid version does that: **[doc2md on Gumroad](https://tidybyte.gumroad.com/l/frlkv)**
 
 Runs on your own computer, so your files are never uploaded anywhere. MIT license. Python 3.10 or newer, on Windows, Mac and Linux.
@@ -33,10 +63,6 @@ Also searched as: ES: convertir PDF a Markdown / PT: converter PDF para Markdown
 - **[Pro version on Gumroad](https://tidybyte.gumroad.com/l/frlkv)** — Word files, folders, RAG chunks, page ranges
 
 <!-- mcp-name: io.github.tidybytetools/doc2md-lite -->
-
-## Before and after
-
-Before: a text PDF or an HTML file. After: Markdown with headings and tables kept as tables. Scanned pages are skipped. This free tool does not read Word files and does not download web pages — save the page first.
 
 ## Install
 
