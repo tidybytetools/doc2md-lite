@@ -50,6 +50,8 @@ curl https://example.com/api/returns
 
 Scanned pages are skipped. This free tool does not read Word files and does not download web pages — save the page first.
 
+![A terminal run of doc2md-lite turning a saved help page into Markdown](docs/demo.gif)
+
 Need Word files, chunks for AI search (RAG), whole folders or page ranges? The paid version does that: **[doc2md on Gumroad](https://tidybyte.gumroad.com/l/frlkv)**
 
 Runs on your own computer, so your files are never uploaded anywhere. MIT license. Python 3.10 or newer, on Windows, Mac and Linux.
