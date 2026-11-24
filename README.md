@@ -13,6 +13,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tidybytetools/doc2md-lite/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/tidybytetools/doc2md-lite?label=version)](https://github.com/tidybytetools/doc2md-lite/releases)
 [![Apify](https://apify.com/actor-badge?actor=tidybytetools/doc-to-markdown)](https://apify.com/tidybytetools/doc-to-markdown)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/tidybytetools/doc2md-lite)
 
 **Free. No API key. Runs on your own computer, so your files stay with you.**
 
